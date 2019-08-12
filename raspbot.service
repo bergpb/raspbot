@@ -1,0 +1,13 @@
+[Unit]
+Description=RaspBot
+Requires=network.target
+After=network.target
+
+[Service]
+User=pi
+Restart=on-failure
+WorkingDirectory=/home/pi/raspb_bot
+ExecStart=/home/pi/raspbbot/.env/bin/python3 raspbot.py
+
+[Install]
+WantedBy=multi-user.target
