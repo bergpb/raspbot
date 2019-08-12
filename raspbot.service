@@ -6,7 +6,7 @@ After=network.target
 [Service]
 User=pi
 Restart=on-failure
-WorkingDirectory=/home/pi/raspbbot
+WorkingDirectory=/home/pi/raspbot
 ExecStart=/home/pi/raspbbot/.env/bin/python3 raspbot.py
 
 [Install]
