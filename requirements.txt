@@ -1,14 +1,13 @@
--i https://pypi.org/simple
-aiohttp==3.5.4
+-i https://pypi.org/simple/
+aiohttp==3.7.4.post0
 async-timeout==3.0.1
-attrs==19.1.0
-chardet==3.0.4
+attrs==21.2.0
+chardet==4.0.0
 configparser==3.7.3
-idna-ssl==1.1.0 ; python_version < '3.7'
-idna==2.8
-multidict==4.5.2
-rpi.gpio==0.6.5
+idna==3.2
+multidict==5.1.0
+rpi.gpio==0.7.0
 telepot==12.7
-typing-extensions==3.7.2 ; python_version < '3.7'
-urllib3==1.24.1
-yarl==1.3.0
+typing-extensions==3.10.0.0
+urllib3==1.26.5
+yarl==1.6.3
